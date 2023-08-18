@@ -50,7 +50,7 @@ const SimpleReviewSection = () => {
                   <Box w={{ base: '100%', md: '70%' }}>
                     <Box
                       w="100%"
-                      bg={useColorModeValue('gray.300', 'gray.600')}
+                      // bg={useColorModeValue('gray.300', 'gray.600')}
                       rounded="md"
                     >
                       <Box

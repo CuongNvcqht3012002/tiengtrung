@@ -17,6 +17,7 @@ import {
 import NextLink from 'next/link'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import ColorModeSwitcher from './ColorModeSwitcher'
+import { Image } from 'next/image'; // Import Image from next/image
 
 export default function Header() {
   const { isOpen, onToggle } = useDisclosure()
@@ -74,7 +75,7 @@ export default function Header() {
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}
             >
-              <img src="https://tiengtrungmimi.edubit.vn/data/sites/622879a94108d3a5a98b4570/logos/photo_622879a94108d3a5a98b4570_1669512679.jpg" alt="logo" />
+              Logo
             </Text>
           </NextLink>
         </Flex>
