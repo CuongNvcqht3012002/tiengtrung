@@ -1,9 +1,9 @@
-import { Box } from '@chakra-ui/react';
-import { Fragment } from 'react';
-import Header from './Header';
+import { Box } from '@chakra-ui/react'
+import { Fragment } from 'react'
 import Footer from './Footer';
+import Header from './AdminHeader'
 
-function PageLayout({ children }) {
+function AdminLayout({ children }) {
   return (
     <Fragment>
       <Header/>
@@ -26,9 +26,9 @@ function PageLayout({ children }) {
       >
         {children}
       </Box>
-      <Footer/> 
+      <Footer/>
     </Fragment>
   )
 }
 
-export default PageLayout
+export default AdminLayout
