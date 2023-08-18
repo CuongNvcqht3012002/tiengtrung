@@ -31,11 +31,10 @@ const QuizzSection = () => {
   
     const handleSubmit = (event) => {
       event.preventDefault();
-      // Handle survey submission here
-      console.log('Selected Option 1:', selectedOption1);
-      console.log('Selected Option 2:', selectedOption2);
-      console.log('Feedback:', feedback);
-      // You can perform further actions like sending data to a server
+      confirm("Chúc mừng bạn đã vượt qua bài học này!");
+      setSelectedOption1("");
+      setSelectedOption2("");
+      setFeedback("");
     };
   
     return (
