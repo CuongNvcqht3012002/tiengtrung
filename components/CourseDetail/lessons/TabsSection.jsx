@@ -24,12 +24,12 @@ const tabsList = [
   //   data: 'Review & Ratings Data',
   //   icon: AiOutlineStar,
   // },
-  { heading: 'Đánh giá', data: 'Overview Data', icon: AiOutlineUnorderedList },
-  {
-    heading: 'Bình luận học viên',
-    data: 'About Trainer Data',
-    icon: AiOutlineInfoCircle,
-  },
+  { heading: 'Đánh giá & Bình luận', data: 'Overview Data', icon: AiOutlineUnorderedList },
+  // {
+  //   heading: 'Bình luận học viên',
+  //   data: 'About Trainer Data',
+  //   icon: AiOutlineInfoCircle,
+  // },
   // { heading: 'Donate', data: 'Donate Data', icon: AiOutlineDollarCircle },
 ]
 
