@@ -17,6 +17,7 @@ import {
 import NextLink from 'next/link'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import ColorModeSwitcher from './ColorModeSwitcher'
+import { Image } from 'next/image'; // Import Image from next/image
 
 export default function Header() {
   const { isOpen, onToggle } = useDisclosure()
@@ -81,7 +82,7 @@ export default function Header() {
 
         {/* Search Input field */}
         <Input
-          placeholder="Search ..."
+          placeholder="Tìm kiếm ..."
           bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
           border={0}
           _focus={{
@@ -126,7 +127,7 @@ const SignupSection = () => {
         colorScheme="teal"
         variant="outline"
       >
-        Sign In
+        Đăng nhập
       </Button>
       <Button
         display={{ base: 'none', md: 'inline-flex' }}
@@ -135,7 +136,7 @@ const SignupSection = () => {
         href={'#'}
         colorScheme="teal"
       >
-        Sign Up
+        Đăng ký
       </Button>
     </>
   )

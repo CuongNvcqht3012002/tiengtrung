@@ -142,7 +142,7 @@ const HeroSection = ({ course }) => {
               w="100%"
               h="100%"
               src={
-                'https://die54k.fra1.a.restack.io/assets/d05a08aa-f0ec-40a2-8ebe-c4d49a779a05'
+                'https://www.searchenginejournal.com/wp-content/uploads/2022/06/image-search-1600-x-840-px-62c6dc4ff1eee-sej.png'
               }
             />
             <Text

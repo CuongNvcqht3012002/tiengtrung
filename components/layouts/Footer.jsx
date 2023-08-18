@@ -18,54 +18,6 @@ export default function Footer() {
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}
     >
-      <Stack
-        maxW="7xl"
-        mx="auto"
-        px={{
-          base: 4,
-          md: 8,
-          lg: 10,
-        }}
-        py={{
-          base: 4,
-          md: 8,
-        }}
-      >
-        <SimpleGrid
-          templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr' }}
-          spacing={8}
-        >
-          <Stack spacing={6}>
-            <Box>Logo</Box>
-            <Text fontSize={'sm'}>© 2022 All rights reserved</Text>
-          </Stack>
-          <Stack align={'flex-start'}>
-            <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About us</Link>
-            <Link href={'#'}>Blog</Link>
-            <Link href={'#'}>Contact us</Link>
-            <Link href={'#'}>Pricing</Link>
-            <Link href={'#'}>Testimonials</Link>
-          </Stack>
-          <Stack align={'flex-start'}>
-            <ListHeader>Support</ListHeader>
-            <Link href={'#'}>Help Center</Link>
-            <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Legal</Link>
-            <Link href={'#'}>Privacy Policy</Link>
-            <Link href={'#'}>Satus</Link>
-          </Stack>
-          <Stack align={'flex-start'}>
-            <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About us</Link>
-            <Link href={'#'}>Blog</Link>
-            <Link href={'#'}>Contact us</Link>
-            <Link href={'#'}>Pricing</Link>
-            <Link href={'#'}>Testimonials</Link>
-          </Stack>
-        </SimpleGrid>
-      </Stack>
-      <Divider />
       <Center
         maxW="7xl"
         mx="auto"
@@ -81,12 +33,11 @@ export default function Footer() {
       >
         <Stack direction="column" alignItems="center">
           <Text textAlign="center">
-            Education’s purpose is to replace an empty mind with an open one -
-            Malcolm Forbes
+            © SĐT/Zalo: 0369551688 - 人有多少知识，就有多少力量 - Điều khoản sử dụng - Vận hành bởi Edubit
           </Text>
-          <SocialButton label={'Twitter'} href={'#'}>
+          {/* <SocialButton label={'Twitter'} href={'#'}>
             <FaTwitter />
-          </SocialButton>
+          </SocialButton> */}
         </Stack>
       </Center>
     </Box>

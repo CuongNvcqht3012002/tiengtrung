@@ -16,7 +16,7 @@ const SimpleReview = ({ reviewData, ratingSummary }) => {
     <>
       <Box mb={8}>
         <chakra.h1 fontSize="3xl" fontWeight="bold" mb={4}>
-          Rating Summary
+          Đánh giá học viên
         </chakra.h1>
         <Stack spacing={3}>
           <Box>
@@ -71,7 +71,7 @@ const SimpleReview = ({ reviewData, ratingSummary }) => {
 
       <Box>
         <chakra.h1 fontSize="3xl" fontWeight="bold" mb={4}>
-          Recent Reviews
+          Bình luận học viên
         </chakra.h1>
         <Stack direction="column" spacing={5}>
           {reviewData.map((review, index) => {

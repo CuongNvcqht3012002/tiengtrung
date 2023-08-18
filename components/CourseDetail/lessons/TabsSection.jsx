@@ -16,6 +16,8 @@ import {
   AiOutlineDollarCircle,
 } from 'react-icons/ai'
 import QuizzSection from '../QuizzSection'
+import CommentSection from '../CommentSection'
+import SimpleReviewSection from '../SimpleReviewSection'
 
 const tabsList = [
   { heading: 'Trả lời câu hỏi', data: <QuizzSection />, icon: AiOutlineQuestionCircle },
@@ -24,12 +26,12 @@ const tabsList = [
   //   data: 'Review & Ratings Data',
   //   icon: AiOutlineStar,
   // },
-  { heading: 'Đánh giá & Bình luận', data: 'Overview Data', icon: AiOutlineUnorderedList },
-  // {
-  //   heading: 'Bình luận học viên',
-  //   data: 'About Trainer Data',
-  //   icon: AiOutlineInfoCircle,
-  // },
+  { heading: 'Đánh giá học viên', data: <SimpleReviewSection />, icon: AiOutlineUnorderedList },
+  {
+    heading: 'Bình luận học viên',
+    data: <CommentSection />,
+    icon: AiOutlineInfoCircle,
+  },
   // { heading: 'Donate', data: 'Donate Data', icon: AiOutlineDollarCircle },
 ]
 

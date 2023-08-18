@@ -5,7 +5,7 @@ const OverviewSection = ({ description }) => {
   return (
     <Box>
       <chakra.h1 fontSize="3xl" fontWeight="bold" mb={4}>
-        Overview
+        Tổng quan
       </chakra.h1>
       <Text>{description}</Text>
     </Box>

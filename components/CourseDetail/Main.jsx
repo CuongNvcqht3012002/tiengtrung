@@ -48,7 +48,7 @@ const BreadcrumbSection = () => {
         <Link>Home</Link>
       </NextLink>
       <Icon as={BiChevronRight} mt="2px !important" />
-      <Text>react_js</Text>
+      <Text>Tiếng trung sơ cấp 2</Text>
     </HStack>
   )
 }

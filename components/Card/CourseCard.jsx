@@ -82,7 +82,7 @@ const CourseCard = (props) => {
           <Avatar src="" size="sm" />
 
           <Text fontWeight="medium" color={textColor}>
-            Trainer Name
+            Cô Kiều My
           </Text>
         </Stack>
 
@@ -102,14 +102,13 @@ const CourseCard = (props) => {
             display={{ base: 'none', sm: 'block' }}
           />
           <Text fontSize="sm" color={textColor}>
-            100 Enrollments
+            299.000đ
           </Text>
         </Stack>
 
         {/*  Badges */}
         <Flex direction="row" mt={0} flexWrap="wrap">
           <Badge icon={MdLanguage} data="English" size="sm" />
-          <Badge icon={BsBarChartLine} data="Intermediate" size="sm" />
           <Badge icon={BsClock} data="01H:30M" size="sm" />
         </Flex>
       </Stack>
@@ -124,7 +123,7 @@ const CourseCard = (props) => {
         passHref
       >
         <Button as={Link} size="md" colorScheme="teal" variant="solid">
-          Start Learning...
+          Bắt đầu...
         </Button>
       </NextLink>
     </Stack>
