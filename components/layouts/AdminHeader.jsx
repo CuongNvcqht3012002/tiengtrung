@@ -55,12 +55,12 @@ const navLinks = [
 ];
 
 export default function AdminHeader() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
   const menuProps = {
     bg: useColorModeValue('gray.200', 'gray.700'),
     color: useColorModeValue('blue.500', 'blue.200')
   };
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
 
   return (
     <Box px={4} boxShadow="lg" width="100%">
@@ -118,12 +118,12 @@ export default function AdminHeader() {
                     {
                       link.dropdown && <MenuList
                       zIndex={5}
-                      bg={useColorModeValue('rgb(255, 255, 255)', 'rgb(26, 32, 44)')}
+                      // bg={useColorModeValue('rgb(255, 255, 255)', 'rgb(26, 32, 44)')}
                       border="none"
-                      boxShadow={useColorModeValue(
-                        '2px 4px 6px 2px rgba(160, 174, 192, 0.6)',
-                        '2px 4px 6px 2px rgba(9, 17, 28, 0.6)'
-                      )}
+                      // boxShadow={useColorModeValue(
+                      //   '2px 4px 6px 2px rgba(160, 174, 192, 0.6)',
+                      //   '2px 4px 6px 2px rgba(9, 17, 28, 0.6)'
+                      // )}
                     >
                       {dropdownLinks.map((link, index) => (
                         <MenuLink

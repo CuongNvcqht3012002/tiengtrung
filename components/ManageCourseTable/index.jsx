@@ -19,9 +19,9 @@ const DataTable = () => {
             </Thead>
             <Tbody>
             {
-                data.map((item) => {
+                data.map((item, index) => {
                     return (
-                        <Tr>
+                        <Tr key={index}>
                             <Td>
                                 <Flex justifyContent='center' width='100%'>
                                     <Image src={item.image} alt={item.name} width={75} borderRadius='4px'/>
