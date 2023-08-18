@@ -9,6 +9,8 @@ import {
   Stack,
   Heading,
   Textarea,
+  Checkbox,
+  CheckboxGroup,
 } from '@chakra-ui/react';
 
 const QuizzSection = () => {
@@ -53,15 +55,24 @@ const QuizzSection = () => {
                     </RadioGroup>
                 </FormControl>
                 <FormControl as="fieldset" mb={4}>
-                    <FormLabel as="legend">Khóa học này như nào?</FormLabel>
+                    <FormLabel as="legend">Khóa học này tốt không?</FormLabel>
                     <RadioGroup value={selectedOption2} onChange={handleOptionChange2}>
                     <Stack spacing={2}>
-                        <Radio value="e">Đáp án e</Radio>
-                        <Radio value="f">Đáp án f</Radio>
-                        <Radio value="g">Đáp án g</Radio>
-                        <Radio value="h">Đáp án h</Radio>
+                        <Radio value="e">Đúng</Radio>
+                        <Radio value="f">Sai</Radio>
                     </Stack>
                     </RadioGroup>
+                </FormControl>
+                <FormControl as="fieldset" mb={4}>
+                    <FormLabel as="legend">Khóa học này như nào?</FormLabel>
+                    <CheckboxGroup>
+                    <Stack spacing={2}>
+                        <Checkbox value="e">Đáp án e</Checkbox>
+                        <Checkbox value="f">Đáp án f</Checkbox>
+                        <Checkbox value="g">Đáp án g</Checkbox>
+                        <Checkbox value="h">Đáp án h</Checkbox>
+                    </Stack>
+                    </CheckboxGroup>
                 </FormControl>
                 <FormControl>
                     <FormLabel>Ý kiến và góp ý</FormLabel>
