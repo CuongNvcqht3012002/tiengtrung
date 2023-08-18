@@ -1,64 +1,19 @@
-<div align="center">
-  <h2 align="center">TemplatesKart</h2>
-  
-  <strong>A powerful set of fully responsive and accessible ChakraUI React components and projects</strong>
-  
-  <strong>Official Website: https://templateskart.com</strong>
-</div>
+<p align="center">
+  <h2 align="center">Educative</h2>
 
-<div align="center">
-  <a href="https://templateskart.com" target="_blank">
-    <img src="./public/assets/images/home_screen.png">
-  </a>
-</div>
-
-
-
-## Overview
-
-### [Projects Kart](https://templateskart.com)
-
-Projects kart provides an easy solution to getting the look you want for your website without having to mess around with too much code.
-Explore projects and copy code of any section that you like.
-
-### [Components Kart](https://templateskart.com/components)
-
-Beautiful and responsive React components to build your application. Checkout components list. Copy and paste component code to your application and enjoy your free time 🎉
-
-## Components
-
-- [x] Blog
-- [x] Cards
-- [x] Features
-- [x] Footers
-- [x] Forms
-- [x] Headers
-- [x] Heroes
-- [x] Milestones
-- [x] Page Sections
-- [x] Page shells
-- [x] Pagination
-- [x] Pricing
-- [x] Reviews
-- [x] Sidebars
-- [x] Stacked lists
-- [x] Stats
-- [x] Testimonials
-
+  <p align="center">
+    An online platform to help you become a better developer
+  </p>  
+</p>
 
 ## Built with
+- [Reactjs](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com)
+- [react icons](https://react-icons.github.io/react-icons/)
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Styling**: [Chakra UI](https://chakra-ui.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-
+## View and copy code of your favourite components
+[TemplatesKart website](https://templateskart.com/projects/educative)
 
 ## License
 
-See [LICENSE](LICENSE) for more information.
+Licensed under the MIT License. Feel free to use parts of the code in your own projects with attribution!
