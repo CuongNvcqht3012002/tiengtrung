@@ -23,7 +23,7 @@ const LessonsSection = ({ lessons }) => {
   return (
     <Box>
       <chakra.h1 fontSize="3xl" fontWeight="bold" mb={4}>
-        Lessons
+        Khóa học
       </chakra.h1>
       <Stack direction="row" spacing={2} alignItems="center" mb={2}>
         <chakra.h3
@@ -31,11 +31,11 @@ const LessonsSection = ({ lessons }) => {
           fontWeight="bold"
           display={{ base: 'none', md: 'block' }}
         >
-          Course Content
+          Nội dung khóa học
         </chakra.h3>
         <VerticalDivider display={{ base: 'none', md: 'block' }} />
         <chakra.h3 fontSize="lg" fontWeight="bold">
-          {lessons.length} Sections
+          {lessons.length} Bài học
         </chakra.h3>
         <VerticalDivider />
         <chakra.h3 fontSize="lg" fontWeight="bold">

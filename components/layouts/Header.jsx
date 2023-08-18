@@ -74,14 +74,14 @@ export default function Header() {
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}
             >
-              Logo
+              <img src="https://tiengtrungmimi.edubit.vn/data/sites/622879a94108d3a5a98b4570/logos/photo_622879a94108d3a5a98b4570_1669512679.jpg" alt="logo" />
             </Text>
           </NextLink>
         </Flex>
 
         {/* Search Input field */}
         <Input
-          placeholder="Search ..."
+          placeholder="Tìm kiếm ..."
           bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
           border={0}
           _focus={{
@@ -126,7 +126,7 @@ const SignupSection = () => {
         colorScheme="teal"
         variant="outline"
       >
-        Sign In
+        Đăng nhập
       </Button>
       <Button
         display={{ base: 'none', md: 'inline-flex' }}
@@ -135,7 +135,7 @@ const SignupSection = () => {
         href={'#'}
         colorScheme="teal"
       >
-        Sign Up
+        Đăng ký
       </Button>
     </>
   )

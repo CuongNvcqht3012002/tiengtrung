@@ -5,10 +5,10 @@ import { FaReact, FaChalkboardTeacher, FaRegFolderOpen } from 'react-icons/fa'
 import { BsClock } from 'react-icons/bs'
 
 const data = [
-  { text: 'REACT JS BASICS', icon: FaReact },
-  { text: 'NAGS', icon: FaChalkboardTeacher },
-  { text: 'TOTAL LESSONS - 5', icon: FaRegFolderOpen },
-  { text: 'TOTAL DURATION - 02H:30M', icon: BsClock },
+  // { text: 'REACT JS BASICS', icon: FaReact },
+  // { text: 'NAGS', icon: FaChalkboardTeacher },
+  { text: 'TỔNG BÀI HỌC - 4', icon: FaRegFolderOpen },
+  { text: 'THỜI GIAN - 02H:30M', icon: BsClock },
 ]
 
 const TopBar = () => {

@@ -26,9 +26,9 @@ const LessonsSection = ({ lessons }) => {
     <Box>
       <Box mb={3}>
         <Stack direction="row" spacing={2} alignItems="center" mb={2}>
-          <Heading icon={FaRegHandPointRight} text="Current Lesson - 1" />
+          <Heading icon={FaRegHandPointRight} text="Khóa học hiện tại" />
           <VerticalDivider />
-          <Heading icon={TiTickOutline} text="Completed Lessons - 2/2" />
+          <Heading icon={TiTickOutline} text="Hoàn thành khóa học - 2/2" />
         </Stack>
         <Stack direction="row" alignItems="center" spacing={2}>
           <Progress value={20} size="xs" colorScheme="yellow" w="90%" />

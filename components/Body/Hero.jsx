@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <Box mb={{ base: 5, md: 10 }}>
       <Center>
-        <Text fontSize="2xl">Learn techskills at ease</Text>
+        <Text fontSize="2xl">Khóa học nổi bật</Text>
       </Center>
     </Box>
   )
