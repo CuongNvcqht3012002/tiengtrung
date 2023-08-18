@@ -110,11 +110,6 @@ export const lessons = [
     title: 'Bài 3 - Bạn tên gì?',
     content: [{ id: 3.1, title: 'Nét viết + từ vựng', duration: '44m 22s' }],
   },
-  {
-    id: 4,
-    title: 'Bài 3 - Cô ấy là cô giáo của tôi?',
-    content: [{ id: 3.1, title: 'Nét viết + từ vựng', duration: '44m 22s' }],
-  },
 ]
 
 export const skills = ['Tiếng Trung sơ cấp 1']
