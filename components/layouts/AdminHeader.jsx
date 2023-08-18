@@ -59,8 +59,6 @@ export default function AdminHeader() {
     bg: useColorModeValue('gray.200', 'gray.700'),
     color: useColorModeValue('blue.500', 'blue.200')
   };
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
 
   return (
     <Box px={4} boxShadow="lg" width="100%">
