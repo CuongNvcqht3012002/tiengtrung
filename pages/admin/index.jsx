@@ -11,7 +11,7 @@ const Admin = () => {
             <Input placeholder='Nhập tên khóa học' mr={3}/>
             <Select placeholder='Lọc' mr={3}>
             {
-              filters.map((item) => <option value={item.key}>{item.value}</option>)
+              filters.map((item) => <option key={item.value} value={item.key}>{item.value}</option>)
             }
             </Select>
             <Button backgroundColor='blue.500' minWidth={75}>

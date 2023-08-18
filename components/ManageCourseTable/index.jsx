@@ -21,7 +21,7 @@ const DataTable = () => {
             {
                 data.map((item) => {
                     return (
-                        <Tr>
+                        <Tr key={item.id}>
                             <Td>
                                 <Flex justifyContent='center' width='100%'>
                                     <Image src={item.image} alt={item.name} width={75} borderRadius='4px'/>
@@ -72,7 +72,7 @@ const DataTable = () => {
                             </Td>
                             <Td>
                                 {
-                                    item.status 
+                                    item.status
                                     ?   <Text backgroundColor='blue.400' borderRadius="8px" textAlign='center' py={2}>
                                             Mở bán
                                         </Text>
@@ -80,7 +80,7 @@ const DataTable = () => {
                                             Dừng bán
                                         </Text>
                                 }
-                                
+
                             </Td>
                             <Td>
                                 <Button backgroundColor='yellow.500' borderRadius="8px" mx='4px'>

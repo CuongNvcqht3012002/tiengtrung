@@ -62,6 +62,12 @@ export default function AdminHeader() {
     color: useColorModeValue('blue.500', 'blue.200')
   };
 
+  const bgColor = useColorModeValue('rgb(255, 255, 255)', 'rgb(26, 32, 44)')
+  const boxShadowColor = useColorModeValue(
+    '2px 4px 6px 2px rgba(160, 174, 192, 0.6)',
+    '2px 4px 6px 2px rgba(9, 17, 28, 0.6)'
+  )
+
   return (
     <Box px={4} boxShadow="lg" width="100%">
       <Flex h={16} alignItems="center" justifyContent="space-between" maxW={1200} mx="auto">
@@ -118,12 +124,9 @@ export default function AdminHeader() {
                     {
                       link.dropdown && <MenuList
                       zIndex={5}
-                      bg={useColorModeValue('rgb(255, 255, 255)', 'rgb(26, 32, 44)')}
+                      bg={bgColor}
                       border="none"
-                      boxShadow={useColorModeValue(
-                        '2px 4px 6px 2px rgba(160, 174, 192, 0.6)',
-                        '2px 4px 6px 2px rgba(9, 17, 28, 0.6)'
-                      )}
+                      boxShadow={boxShadowColor}
                     >
                       {dropdownLinks.map((link, index) => (
                         <MenuLink
