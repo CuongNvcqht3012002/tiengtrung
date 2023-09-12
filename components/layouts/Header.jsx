@@ -18,6 +18,7 @@ import {
 import NextLink from 'next/link'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import ColorModeSwitcher from './ColorModeSwitcher'
+import { useRouter } from 'next/router'
 
 export default function Header() {
   const { isOpen, onToggle } = useDisclosure()
@@ -126,15 +127,17 @@ export default function Header() {
 }
 
 const SignupSection = () => {
+  const router = useRouter()
   return (
     <>
       <Button
         display={{ base: 'none', md: 'inline-flex' }}
         fontSize={'sm'}
         fontWeight={600}
-        href={'#'}
+        href={'/auth/log-in'}
         colorScheme="teal"
         variant="outline"
+        onClick={() => {router.push('/auth/log-in')}}
       >
         Đăng nhập
       </Button>
@@ -142,8 +145,9 @@ const SignupSection = () => {
         display={{ base: 'none', md: 'inline-flex' }}
         fontSize={'sm'}
         fontWeight={600}
-        href={'#'}
+        href={'/auth/sign-up'}
         colorScheme="teal"
+        onClick={() => {router.push('/auth/sign-up')}}
       >
         Đăng ký
       </Button>
@@ -154,22 +158,23 @@ const SignupSection = () => {
 const LoggedInSection = () => {
   return (
     <>
-      <Button
+      <Link
         display={{ base: 'none', md: 'inline-flex' }}
         fontSize={'sm'}
         fontWeight={600}
-        href={'#'}
+        href={'/auth/log-in'}
         colorScheme="teal"
         variant="outline"
       >
         Enrollment
-      </Button>
+      </Link>
       <Avatar size="md" name="Dan Abrahmov" src="https://bit.ly/dan-abramov" />
     </>
   )
 }
 
 const MobileNav = () => {
+  const router = useRouter()
   return (
     <Stack
       bg={useColorModeValue('white', 'gray.800')}
@@ -179,19 +184,21 @@ const MobileNav = () => {
       <Button
         fontSize={'sm'}
         fontWeight={600}
-        href={'#'}
+        href={'/auth/sign-up'}
         w="100%"
         colorScheme="teal"
         variant="outline"
+        onClick={() => {router.push('/auth/sign-up')}}
       >
-        Sign In
+        Log In
       </Button>
       <Button
         fontSize={'sm'}
         fontWeight={600}
-        href={'#'}
+        href={'/auth/log-in'}
         colorScheme="teal"
         w="100%"
+        onClick={() => {router.push('/auth/log-in')}}
       >
         Sign Up
       </Button>
